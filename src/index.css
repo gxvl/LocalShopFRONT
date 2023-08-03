@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.cdnfonts.com/css/gotham-6');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+
+:root {
+  --bg-color: #3A3A3A;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main{
+  font-family: 'Gotham', sans-serif;
+  background-image: url('./assests/bg.jpg');  
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  gap: 1em
+}
+
+.image{
+  width: 15%;
+}
+
+.title{
+  color: #E7BE48;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.subtitle{
+  color: #E7BE48;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: .5em;
+  margin-bottom: .7em
+}
+
+.btn{
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 300; 
+  background-color: #F8CE41;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5em;
+  width: 16em;
+  cursor: pointer;
 }
