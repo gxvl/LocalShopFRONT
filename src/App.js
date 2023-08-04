@@ -1,8 +1,8 @@
-import './index.css';
+import './index.css'
 import './reset.css'
-import logo from './assests/logo.svg'
-import google from './assests/google.svg'
-import email from './assests/email.png'
+import logo from './assets/logo.svg'
+import google from './assets/google.svg'
+import email from './assets/email.svg'
 
 function App() {
 
@@ -11,12 +11,18 @@ function App() {
       <img src={logo} alt='logo' className='image'/>
       <h1 className='title'>LocalShop</h1>
       <h2 className='subtitle'>Como desejar continuar?</h2>
-      <button className='btn'><img src={google} alt='google logo' />Continuar com o Google</button>
-      <button className='btn'><img src={email} alt='email logo' />Continuar com E-mail</button>
+      <ButtonLogin imagem = {google}>Continue com Google</ButtonLogin>
+      <ButtonLogin imagem = {email}>Continue com E-mail</ButtonLogin>
       <p className='subtitle'>Não tem login? Cadastre-se</p>
       <button className='btn'>Deseja cadastrar sua loja?</button>
     </div>
   );
-}
+
+  function ButtonLogin ({imagem, children}) {
+    return (
+      <button className='btn'><img src={imagem} alt='button logo' />{children}</button>
+    )
+    }
+  }
 
 export default App;

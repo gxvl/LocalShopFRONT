@@ -9,7 +9,7 @@
 
 .main{
   font-family: 'Gotham', sans-serif;
-  background-image: url('./assests/bg.jpg');  
+  background-image: url('./assets/bg.jpg');  
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -52,4 +52,11 @@
   gap: .5em;
   width: 16em;
   cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #ffffff;
+  border-color: black;
+  transition: .5s;
+
 }
