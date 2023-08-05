@@ -19,7 +19,7 @@
   gap: 1em
 }
 
-.image{
+.imageLogin{
   width: 15%;
 }
 
@@ -54,9 +54,69 @@
   cursor: pointer;
 }
 
+.btn_login {
+  padding: 0.5em 1em;
+  font-weight: 700;
+  width:7em;
+  height: 3em;
+}
+
+.btn_cadastro {
+  padding: 0.5em 1em;
+  font-weight: 700;
+  font-size: 25px;
+  width:11em;
+  height: 2.7em;
+  margin-top: 1em;
+  font-weight: 900;
+}
+
+.inputLogin{
+  font-family: 'Inter', sans-serif;
+  font-size: 26px;
+  font-weight: 300; 
+  background-color: #5C5C5C;
+  color: #dddddd;
+  padding: 0.5em;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: .5em;
+  height: 1.5em;
+  width: 16em;
+  margin: .25em 0 .25em 0;
+}
+
+.inputSenha{
+   font-family: 'Inter', sans-serif;
+  font-size: 26px;
+  font-weight: 300; 
+  background-color: #5C5C5C;
+  color: #dddddd;
+  padding: 0.5em ;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: .5em;
+  height: 1.5em;
+  width: 16em;
+  margin: .25em 0 .25em 0;
+}
+
 .btn:hover{
   background-color: #ffffff;
   border-color: black;
   transition: .5s;
 
+}
+
+::placeholder {
+  color: #8F8F8F;
+  opacity: 1; 
 }
