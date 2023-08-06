@@ -13,7 +13,7 @@ function App() {
       <h2 className='subtitle'>Como desejar continuar?</h2>
       <ButtonLogin imagem = {google}>Continue com Google</ButtonLogin>
       <ButtonLogin imagem = {email}>Continue com E-mail</ButtonLogin>
-      <p className='subtitle'>Não tem login? Cadastre-se</p>
+      <p className='subtitle' a href= "null">Não tem login? Cadastre-se</p>
       <button className='btn'>Deseja cadastrar sua loja?</button>
     </div>
   );
