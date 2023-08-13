@@ -5,7 +5,6 @@
 :root {
   --bg-color: #3A3A3A;
   --amarelo-padrao: #e7bf46;
-  --azul-padrão: #00f;
 }
 
 .main{
@@ -17,7 +16,7 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  gap: 1em
+  gap: 1em;
 }
 
 .imageLogin{
@@ -78,7 +77,7 @@
   font-weight: 300; 
   background-color: #5C5C5C;
   color: #dddddd;
-  padding: 0.5em;
+  padding: 0.5em 0;
   border: none;
   border-radius: 5px;
   display: flex;
@@ -87,7 +86,6 @@
   text-align: center;
   gap: .5em;
   height: 1.5em;
-  width: 16em;
   margin: .25em 0 .25em 0;
 }
 
@@ -97,7 +95,7 @@
   font-weight: 300; 
   background-color: #5C5C5C;
   color: #dddddd;
-  padding: 0.5em ;
+  padding: 0.5em 0;
   border: none;
   border-radius: 5px;
   display: flex;
@@ -106,7 +104,6 @@
   text-align: center;
   gap: .5em;
   height: 1.5em;
-  width: 16em;
   margin: .25em 0 .25em 0;
 }
 
@@ -114,6 +111,7 @@
   background-color: #ffffff;
   border-color: black;
   transition: .5s;
+
 }
 
 ::placeholder {

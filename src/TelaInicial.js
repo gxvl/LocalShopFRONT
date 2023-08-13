@@ -3,8 +3,9 @@ import './reset.css'
 import logo from './assets/logo.svg'
 import google from './assets/google.svg'
 import email from './assets/email.svg'
+import { useHistory } from 'react-router-dom';
 
-function App() {
+function TelaInicial() {
 
   return (
     <div className="main">
@@ -25,4 +26,4 @@ function App() {
     }
   }
 
-export default App;
+export default TelaInicial;
